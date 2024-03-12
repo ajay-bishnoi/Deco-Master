@@ -518,7 +518,7 @@
 
 @media (max-width: 991.9px) {
   :root {
-    --fs-sm: 18px;
+    --fs-sm: 16px;
     --fs-md: 20px;
     --fs-lg: 21px;
     --fs-xl: 28px;
@@ -624,7 +624,7 @@
     height: 465px;
   }
   .lh-27 {
-    line-height: 25px;
+    line-height: 22px;
   }
   .gap-45 {
     gap: 36px;
@@ -1003,10 +1003,11 @@
     width: 250px;
   }
   .p-175-140 {
-    padding: 60px 0 32px;
+    padding: 60px 0 32px !important;
   }
   .subsucribeBtn {
     padding: 16px 48px;
+    width: 250px;
   }
   .py-115-168 {
     padding: 50px 0;
