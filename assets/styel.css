@@ -235,6 +235,9 @@
 .mt-182 {
   margin-top: 182px !important;
 }
+.px-21 {
+  padding: 21px;
+}
 .splash1 {
   z-index: -3;
   bottom: 67%;
