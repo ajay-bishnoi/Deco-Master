@@ -813,7 +813,10 @@
     padding: 16px 48px;
   }
   .p-175-140 {
-    padding: 80px 0 50px;
+    padding: 80px 65px 50px;
+  }
+  .subsucribeBtn {
+    width: 100%;
   }
   .lh-216 {
     line-height: 85px;
@@ -1039,6 +1042,9 @@
   .item3 > img {
     border-radius: 12px;
     height: 275px;
+  }
+  .p-175-140 {
+    padding: 60px 137px 32px;
   }
   .item4 {
     border-radius: 12px;
