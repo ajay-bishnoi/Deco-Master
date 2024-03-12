@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
 $(".responsive").slick({
   dots: false,
   infinite: true,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 1600,
   arrows: false,
   ltr: false,
@@ -89,7 +89,7 @@ $(".responsive").slick({
 $(".responsive1").slick({
   dots: false,
   infinite: true,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 1600,
   arrows: false,
   rtl: true,

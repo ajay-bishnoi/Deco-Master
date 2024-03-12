@@ -62,7 +62,7 @@
   padding-top: 260px;
 }
 .clr-Btn {
-  background: linear-gradient(90.44deg, #9003e5 2.42%, #f93b95 99.69%);
+  background: var(--gradient-p);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -85,7 +85,7 @@
   background: inherit;
   background-origin: border-box;
   background-clip: border-box;
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask: var(--white-mask);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   -webkit-mask-repeat: no-repeat;
@@ -93,8 +93,8 @@
 }
 /**/
 .clr-Btn:hover {
-  color: #fff;
-  -webkit-text-fill-color: #fff;
+  color: var(--white);
+  -webkit-text-fill-color: var(--white);
   -webkit-background-clip: border-box;
   background-clip: border-box;
 }
@@ -117,19 +117,19 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: linear-gradient(90deg, #f9af0a 0%, #92aa61 85%);
+  background: var(--yelo-gradient);
 }
 .dot2 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: linear-gradient(90deg, #1798bc 0%, #0185d3 90%);
+  background: var(--blue-gradient);
 }
 .dot3 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: linear-gradient(90deg, #7142a2 0%, #b31376 100%);
+  background: var(--pink-gradient);
 }
 .my-82-92 {
   margin: 82px 0 92px;
@@ -185,7 +185,7 @@
   opacity: 1;
 }
 .gallerylayer {
-  background: #00000099;
+  background: var(--lg-black);
   padding: 29px 35px 30px;
   background-position: center;
   transition: all 300ms linear;
@@ -443,12 +443,12 @@ input {
 }
 .team {
   border-radius: 15px;
-  box-shadow: 0px 4px 4px 0px #00000040;
+  box-shadow: 0px 4px 4px 0px var(--shadow);
   height: 453px;
   transition: all 300ms linear;
 }
 .team:hover {
-  box-shadow: -9px -13px 94px 0px #00000040;
+  box-shadow: -9px -13px 94px 0px var(--shadow);
 }
 .max-h-819 {
   min-height: 819px;
