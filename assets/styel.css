@@ -74,6 +74,7 @@
   z-index: 0;
   text-decoration: none;
   width: 193px;
+  transition: all 300ms linear;
 }
 .clr-Btn::before {
   content: "";

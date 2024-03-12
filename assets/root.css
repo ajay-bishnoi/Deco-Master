@@ -98,6 +98,11 @@
 }
 
 /* -------------------responsive----------------------- */
+@media (max-width: 1734px) {
+  .gallerylayer {
+    padding: 29px 16px 30px;
+  }
+}
 @media (max-width: 1536px) {
   :root {
     --fs-sm: 18px;
