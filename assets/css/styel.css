@@ -15,13 +15,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-.container-1355 {
-  max-width: 1355px;
-  padding-left: 12px;
-  padding-right: 12px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .fw-400 {
   font-weight: 400;
 }
@@ -52,11 +45,12 @@
 /* ----------------hero section--------- */
 
 .hero-bg {
-  background-image: url("./img/png/hero-bg.png");
+  background-image: url("../img/png/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
   height: 700px;
+  /* height: calc(100vh - 80px); */
 }
 .pt-260 {
   padding-top: 260px;
@@ -293,9 +287,14 @@
 .max-753 {
   max-width: 753px;
 }
+#Services > div {
+  width: min(95vw, 2100px);
+}
+#Services > :nth-child(4) {
+  width: unset !important;
+}
 .columnLayer1 {
   z-index: -3;
-  width: 1774px;
   height: 365px;
   border-radius: 40px;
   top: 19%;
@@ -304,7 +303,6 @@
 }
 .columnLayer2 {
   z-index: -3;
-  width: 1774px;
   height: 365px;
   border-radius: 40px;
   top: 49.5%;
@@ -313,10 +311,9 @@
 }
 .columnLayer3 {
   z-index: -3;
-  width: 1774px;
   height: 365px;
   border-radius: 40px;
-  bottom: 4.5%;
+  bottom: 4%;
   right: -1.2%;
   background: var(--mix-gray);
 }
@@ -519,12 +516,13 @@ input {
   bottom: 3%;
   opacity: 0.9;
   border-radius: 50%;
-  background: var(--pink-gradient);
+  background: var(--blue);
   height: 51px;
   width: 51px;
   align-items: center;
   justify-content: center;
   z-index: 10;
+  box-shadow: rgb(255, 254, 254) 0px 0px 8px -1px !important;
 }
 .scale_06 {
   scale: 0.6;
